@@ -20,7 +20,7 @@ const initOpts: CompressOptions<"tgz"> = {
   archiverName: "dist.tar.gz",
   type: "tgz",
   sourceName: "dist",
-  ignoreBase: false, //
+  ignoreBase: false,
 };
 export default function compressDist(
   opts?: CompressOptions<"zip" | "tar" | "tgz">

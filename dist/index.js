@@ -12,7 +12,7 @@ const initOpts = {
     archiverName: "dist.tar.gz",
     type: "tgz",
     sourceName: "dist",
-    ignoreBase: false, //
+    ignoreBase: false,
 };
 function compressDist(opts) {
     const { sourceName, archiverName, type, ignoreBase } = opts || initOpts;
